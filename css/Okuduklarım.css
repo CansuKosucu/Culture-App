@@ -1,0 +1,126 @@
+body{
+    background-color:#fff;
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    }
+header{position: relative;
+    width: 100%;
+    height: 75%;
+    padding-top: 200px;
+    background: url("../IMAGE/444c1_kutuphane_1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+          }
+.logo{position: absolute;
+    top: 0px;
+     left: 0px;
+      }
+ 
+h1{
+    
+position: absolute;
+left: 30px;
+top: 140px;
+
+font-family: Open Sans;
+font-style: italic;
+font-weight: bold;
+text-align: center;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+
+.search-bar input[type="text"]{margin:10px 10px;
+    width: 85%;
+    height: 30px;
+    text-align: center; 
+    right:0px;
+    background:transparent;
+    font-style: italic;
+    box-shadow: 4px 4px 4px  rgba(87, 87, 87, 0.25);
+    border-radius: 20px 20px 20px 20px;
+    border:1px solid rgba(87, 87, 87, 0.25) ;}
+
+:-moz-placeholder{color: #C4C4C4;}
+
+::-webkit-input-placeholder{ color: #C4C4C4;
+                            font-size: 14px;}
+.book-wrapper{display:flex;
+   flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    margin-top:-110px;
+    padding-top: 20px;
+                }
+.book-wrapper-items{width:90px;
+                    height:105px;
+                    position:relative;
+                    align-items: center;
+                    background-color: rgba(73, 73, 73, 0.25) ;
+                    border-radius: 10px 10px 10px 10px;
+                    margin-top:26%;
+                    box-shadow: 4px 4px 4px  rgba(190, 190, 190, 0.25) ;}
+.book-wrapper-text{font-size: 12px;
+                    font-family: Open Sans, sans-serif;}
+
+                   
+
+.category-header{
+        box-sizing: border-box;
+        border:1px solid rgba(70, 69, 69, 0.25);
+        color:black;
+        background-color:  rgba(70, 69, 69, 0.25);
+        height:30px;
+        border-radius: 2px 2px 2px 2px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;}
+
+    #reading-history{
+        margin-top: 30px;
+    }
+.adding-icon{position: absolute;
+            top:0;
+            right: 0;
+            z-index:60;}
+img{ z-index: 55;
+    border-radius: 5px 5px 5px 5px;}
+
+
+.navbar{position:fixed;
+        bottom: 0;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        border-top: 1px solid  rgb(216, 214, 214);
+        height:60px;
+        width: 100%;}
+/*---icons--*/
+
+.home i{color: rgba(29, 29, 29, 0.25);
+            bottom:0;}
+
+.search-icon i{color: rgba(73, 73, 73, 0.25);
+                bottom:0;}
+            
+.library i{color:#FD8469;
+        z-index: 58;
+        bottom:1px;
+        box-shadow: 2px 2px 2px 2px #FD8469;
+        border-radius: 50%;}
+
+.profile i{color:rgba(73, 73, 73, 0.25);
+    bottom:0;
+        }
+.more i{color: rgba(73, 73, 73, 0.25);
+    bottom:0;}
+
+
+
+

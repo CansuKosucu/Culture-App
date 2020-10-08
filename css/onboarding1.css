@@ -1,0 +1,52 @@
+body{margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif; }
+
+
+.picture{position: relative;
+    width:100%;
+    height:100%;
+    padding-top:600px;
+    background-image: url("../IMAGE/onboarding1.png") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+        width:100%;
+        height: 90%;
+       }
+
+.paragraph{position: absolute;
+font-style: italic;
+font-weight: 420;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.01em;
+color: #000000;
+bottom:13%;}
+
+.basla{ position: relative;
+    font-family: 'Open Sans', sans-serif;
+    width:100%;
+    height:80px;
+     bottom:10%;
+   }
+
+.basla button{position: absolute;
+            right:45%;
+            bottom:40%;
+          padding:15px 55px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 2px 2px 2px 2px #FD8469;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        border: none;
+        background-color: #FD8469;}
+
+.basla i{position:absolute;
+
+        right: 5%;
+        bottom:10%;}

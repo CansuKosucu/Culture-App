@@ -1,0 +1,74 @@
+body{margin:0;
+    padding:0;
+    background-image: url(../IMAGE/loginbackground.png);
+    background-repeat: no-repeat;
+    background-size: auto;}
+img{
+    border-radius: 50%;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+h1{margin-right: 20px;
+    text-shadow: 1px solid #000000;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form{margin-top:250px;
+    }
+
+.genel{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right:80px;
+
+}
+
+.kullanıcı label{font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.sifre label{
+    font-weight:bold;
+    font-family: 'Open Sans', sans-serif;
+    padding-right:60px;}
+
+.sifremi-kaydet label{font-size: 12px;
+        font-weight:bold;
+        font-family: 'Open Sans', sans-serif;
+        margin-left:80px;
+        }
+.sifremi-kaydet input[type="radio"] { background-color: #FD8469;
+    padding-right:5px;
+}
+
+
+input{
+        width:110px;
+        height:25px;
+        border:2px solid  #FD8469;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: 10px;
+        margin-left:40px;
+        z-index:5;
+}
+
+.buttons{display:flex;
+        justify-content: space-between;
+        margin-top:25%;
+        margin-left:6%;
+        margin-right:6%;
+    }
+button{width: 110px;
+        height: 60px;
+        background-color: #FD8469;
+        border-radius: 10px 10px 10px 10px;
+        border:1px solid #FD8469;
+        box-shadow: 4px #FD8469;
+        
+    }
+ p{font-weight: bold;}

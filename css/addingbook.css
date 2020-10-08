@@ -1,0 +1,92 @@
+body{margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+header{position: relative;
+    width: 100%;
+    height: 75%;
+    padding-top: 130px;
+    background: url("../IMAGE/444c1_kutuphane_1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+          }
+.logo{position: absolute;
+    top: 0;
+    left: 0;}
+
+.adding-book{position: absolute;
+    bottom:15%;
+   right: 15%;
+    border:1px solid rgba(70, 69, 69, 0.25);
+    width:120px;
+    height:30px;
+    border-radius: 10px 10px 10px 10px;
+    z-index:3;
+    background-color: rgba(70, 69, 69, 0.25);
+    color:#000;
+    font-family:  'Open Sans', sans-serif ;
+    font-size:14px;
+    font-weight:700 ;
+    text-align: center;
+
+}
+form{
+    margin-top:20px;}
+
+.book{padding-top:30px;
+    display:flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left:15px;
+
+}
+.book input{
+        width:150px;
+        height:30px;
+        border:2px solid  #FD8469;
+        border-radius: 20px 20px 20px 20px;
+       
+}
+.book label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif ;;
+}
+.book input[ value="Kamerayı Aç"]{color:rgb(97, 94, 94);
+    font-style: italic;
+    text-align: center;
+    font-weight: 700;
+}
+
+#photo{bottom:30px;}
+ .navbar{position:fixed;
+        bottom: 0;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        border-top: 1px solid  rgb(216, 214, 214);
+        height:60px;
+        width: 100%;}
+/*---icons--*/
+
+.library i{color: rgba(29, 29, 29, 0.25);
+        bottom:0;}
+
+.search-icon i{color: rgba(73, 73, 73, 0.25);
+            bottom:0;}
+        
+.more i{color:#FD8469;
+    z-index: 58;
+    bottom:1px;
+    box-shadow: 2px 2px 2px  #FD8469;
+    border-radius: 50%;}
+
+.profile i{color:rgba(73, 73, 73, 0.25);
+bottom:0;
+    }
+.home i{color: rgba(73, 73, 73, 0.25);
+bottom:0;}
